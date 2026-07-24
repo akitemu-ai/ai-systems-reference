@@ -59,7 +59,7 @@ Implemented capabilities include:
 * bounded live integration paths
 * automated testing
 
-→ `architecture/multi-repo-agent-pipeline.md` *(coming next)*
+→ [Read the Multi-Repository AI Pipeline architecture](architecture/multi-repo-agent-pipeline.md)
 
 ### Cross-cloud workload identity
 
