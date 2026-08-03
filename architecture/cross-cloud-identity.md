@@ -1,5 +1,12 @@
 # Cross-Cloud Workload Identity
 
+| Metadata | Value |
+|---|---|
+| Category | Reference architecture |
+| Status | Published |
+| Audience | Cloud architects, platform engineers, and AI system engineers |
+| Implementation Basis | Multiple private AWS workloads using Google Workload Identity Federation and bounded Google resource access |
+
 ## Overview
 
 This reference architecture demonstrates how workloads running in AWS can access explicitly authorized Google resources without embedding long-lived Google service-account private keys in application code.
@@ -592,3 +599,10 @@ This document intentionally does not expose:
 The private repositories remain the implementation source of truth.
 
 This public document exists to demonstrate the reusable identity architecture and engineering principles behind the implementations.
+
+---
+
+## Related documents
+
+* [Multi-Repository AI Pipeline](multi-repo-agent-pipeline.md)
+* [Runtime Truth vs Repository Truth](../patterns/runtime-truth-vs-repository-truth.md)

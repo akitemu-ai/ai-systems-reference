@@ -1,5 +1,12 @@
 # Multi-Repository AI Pipeline
 
+| Metadata | Value |
+|---|---|
+| Category | Reference architecture |
+| Status | Published |
+| Audience | AI system architects, platform engineers, and technical leaders |
+| Implementation Basis | Three private, independently implemented runtime components and their audited engineering evidence |
+
 ## Overview
 
 This reference architecture demonstrates how multiple independently owned AI system components can operate as one governed pipeline without collapsing orchestration, ingestion, analysis, persistence, and authority into a single agent.
@@ -425,9 +432,9 @@ This allows runtime behavior to be evaluated as evidence rather than inferred fr
 
 ---
 
-## Runtime truth over repository assumptions
+## Runtime truth and operational evidence
 
-The architecture distinguishes several maturity states:
+The architecture distinguishes several evidence states:
 
 ```
 planned
@@ -452,7 +459,7 @@ The architecture therefore separates:
 * runtime truth
 * verified-live evidence
 
-This reduces the risk of treating configuration artifacts as proof of operational reality.
+These states and their evidence requirements are developed in [Runtime Truth vs Repository Truth](../patterns/runtime-truth-vs-repository-truth.md). Keeping them separate prevents code or configuration artifacts from being treated as proof of operational behavior.
 
 ---
 
@@ -649,3 +656,12 @@ It intentionally does not expose:
 The private repositories remain the implementation source of truth.
 
 This public repository exists to demonstrate the architecture, engineering decisions, implementation patterns, and evidence behind the system.
+
+---
+
+## Related documents
+
+* [Cross-Cloud Workload Identity](cross-cloud-identity.md)
+* [Schema First](../patterns/schema-first.md)
+* [Human Approval Boundaries](../patterns/human-approval-boundaries.md)
+* [Runtime Truth vs Repository Truth](../patterns/runtime-truth-vs-repository-truth.md)

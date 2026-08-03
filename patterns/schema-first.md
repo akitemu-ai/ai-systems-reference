@@ -1,5 +1,12 @@
 # Schema First
 
+| Metadata | Value |
+|---|---|
+| Category | Engineering pattern |
+| Status | Published |
+| Audience | AI system architects and engineers |
+| Implementation Basis | Validated input, handoff, output, and persistence contracts across private AI system implementations |
+
 ## Overview
 
 Schema First is an engineering principle where structure is treated as the primary contract of an AI system.
@@ -249,3 +256,11 @@ The schema defines reality.
 **The model is an implementation component.**
 
 **The schema is the contract.**
+
+---
+
+## Related documents
+
+* [Multi-Repository AI Pipeline](../architecture/multi-repo-agent-pipeline.md)
+* [Human Approval Boundaries](human-approval-boundaries.md)
+* [Runtime Truth vs Repository Truth](runtime-truth-vs-repository-truth.md)

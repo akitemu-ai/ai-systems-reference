@@ -1,5 +1,12 @@
 # Human Approval Boundaries
 
+| Metadata | Value |
+|---|---|
+| Category | Engineering pattern |
+| Status | Published |
+| Audience | AI system architects, governance owners, and technical leaders |
+| Implementation Basis | Review gates, governed promotion, and explicit authority boundaries reflected in private AI system implementations |
+
 ## Overview
 
 Human Approval Boundaries is an engineering principle that separates **execution capability** from **decision authority**.
@@ -303,3 +310,11 @@ Separating execution from authority allows systems to become more autonomous whi
 * Authority boundaries should be explicit.
 * Systems should fail closed when authority is missing.
 * AI prepares decisions; organizations own decisions.
+
+---
+
+## Related documents
+
+* [Multi-Repository AI Pipeline](../architecture/multi-repo-agent-pipeline.md)
+* [Schema First](schema-first.md)
+* [Runtime Truth vs Repository Truth](runtime-truth-vs-repository-truth.md)
